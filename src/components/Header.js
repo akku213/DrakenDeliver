@@ -1,7 +1,8 @@
 import { useState } from 'react';
-import Logo from '../../images/logo.png';
+// import Logo from '../../images/logo.png';
 import resList from '../utils/mockData';
 import RestaurantCard from "./RestaurantCard";
+import { APPLOGO, APPLogo } from '../utils/constants';
 import { Link } from 'react-router-dom';
 import useOnlineStatus from '../utils/useOnlineStatus';
 
@@ -18,7 +19,7 @@ const Header = ({ onSearch }) => {
         <div className='header'>
           {<div className='logo-container'>
            <img alt='logo' className='logo' 
-           src={Logo}
+           src={APPLOGO}
            />
            </div>}
           <div className='search-container'>
