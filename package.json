@@ -2,9 +2,8 @@
   "name": "chp2",
   "version": "1.0.0",
   "description": "Swiggy",
-  "main": "App.js",
   "scripts": {
-    "build": "parcel build src/index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "repository": {
